@@ -1,0 +1,162 @@
+[
+  {
+    "imagen": "https://m.media-amazon.com/images/I/315vAusrqUL._AC_SR240,240_.jpg",
+    "producto": "Auriculares inalámbricos",
+    "precio": 2500000,
+    "descuento": 10,
+    "moneda": "PYG",
+    "promo": "Black Friday"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Smartphone",
+    "producto": "Smartphone 128 GB",
+    "precio": 3200000,
+    "descuento": 15,
+    "moneda": "PYG",
+    "promo": "Oferta especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Notebook",
+    "producto": "Notebook 15 pulgadas",
+    "precio": 6850000,
+    "descuento": 12,
+    "moneda": "PYG",
+    "promo": "Black Friday"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Tablet",
+    "producto": "Tablet 10 pulgadas",
+    "precio": 2750000,
+    "descuento": 8,
+    "moneda": "PYG",
+    "promo": "Precio especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Smartwatch",
+    "producto": "Reloj inteligente",
+    "precio": 980000,
+    "descuento": 20,
+    "moneda": "PYG",
+    "promo": "Black Friday"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Parlante",
+    "producto": "Parlante Bluetooth portátil",
+    "precio": 650000,
+    "descuento": 10,
+    "moneda": "PYG",
+    "promo": "Oferta especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Teclado",
+    "producto": "Teclado mecánico",
+    "precio": 890000,
+    "descuento": 15,
+    "moneda": "PYG",
+    "promo": "Descuento web"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Mouse",
+    "producto": "Mouse inalámbrico",
+    "precio": 320000,
+    "descuento": 5,
+    "moneda": "PYG",
+    "promo": "Precio especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Monitor",
+    "producto": "Monitor LED 24 pulgadas",
+    "precio": 1850000,
+    "descuento": 12,
+    "moneda": "PYG",
+    "promo": "Black Friday"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Camara",
+    "producto": "Cámara web HD",
+    "precio": 450000,
+    "descuento": 10,
+    "moneda": "PYG",
+    "promo": "Oferta especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Consola",
+    "producto": "Consola de videojuegos",
+    "precio": 4250000,
+    "descuento": 8,
+    "moneda": "PYG",
+    "promo": "Precio especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Control",
+    "producto": "Control inalámbrico",
+    "precio": 780000,
+    "descuento": 10,
+    "moneda": "PYG",
+    "promo": "Descuento web"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=SSD",
+    "producto": "Disco SSD 1 TB",
+    "precio": 1250000,
+    "descuento": 15,
+    "moneda": "PYG",
+    "promo": "Black Friday"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Router",
+    "producto": "Router Wi-Fi de doble banda",
+    "precio": 590000,
+    "descuento": 7,
+    "moneda": "PYG",
+    "promo": "Oferta especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Impresora",
+    "producto": "Impresora multifunción",
+    "precio": 1680000,
+    "descuento": 10,
+    "moneda": "PYG",
+    "promo": "Precio especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Microfono",
+    "producto": "Micrófono USB",
+    "precio": 720000,
+    "descuento": 12,
+    "moneda": "PYG",
+    "promo": "Black Friday"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Powerbank",
+    "producto": "Batería portátil 20000 mAh",
+    "precio": 390000,
+    "descuento": 10,
+    "moneda": "PYG",
+    "promo": "Descuento web"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Televisor",
+    "producto": "Televisor Smart 50 pulgadas",
+    "precio": 5450000,
+    "descuento": 15,
+    "moneda": "PYG",
+    "promo": "Black Friday"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Camara+IP",
+    "producto": "Cámara de seguridad Wi-Fi",
+    "precio": 520000,
+    "descuento": 8,
+    "moneda": "PYG",
+    "promo": "Oferta especial"
+  },
+  {
+    "imagen": "https://placehold.co/240x240?text=Cargador",
+    "producto": "Cargador rápido USB-C",
+    "precio": 210000,
+    "descuento": 5,
+    "moneda": "PYG",
+    "promo": "Precio especial"
+  }
+]
