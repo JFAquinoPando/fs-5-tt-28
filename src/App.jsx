@@ -1,15 +1,28 @@
 import { useState, useEffect } from 'react'
-import heroImg from './assets/hero.png'
 import carrito from "./assets/market.svg";
 import "./index.css"
-import { Formulario } from '@/componentes/Formulario'
 import { Tarjeta } from './componentes/Tarjeta'
-import productos_usar from "./data/productos.json";
+import { ContextoDeApp } from './ContextoDeApp'
+
 
 export function Aplicacion() {
 
   const [listado, setListado] = useState([])
   const [comprar, setComprar] = useState([])
+
+  function agregarAlCarrito(producto) {
+    setComprar(function (carritoActual) {
+      if (carritoActual.some(function (item) {
+        return item.producto === producto.producto
+      })) {
+        return carritoActual
+      }
+
+      return [...carritoActual, producto]
+    })
+  }
+
+  const valorContexto = { carrito: comprar, agregarAlCarrito }
 
   useEffect(function () {
 
@@ -29,7 +42,7 @@ export function Aplicacion() {
 
 
   return (
-    <>
+    <ContextoDeApp value={valorContexto}>
       <header>
         <h1>Mi Tienda de productos</h1>
         <hr />
@@ -49,14 +62,13 @@ export function Aplicacion() {
       <div className='padding contenedor'>
         {
           listado.map(
-            function (item) {
+            function (item, indice) {
               return <Tarjeta
+                key={`${item.producto}-${indice}`}
                 imagen={item.imagen}
                 producto={item.producto}
                 precio={item.precio} descuento={item.descuento}
                 moneda={item.moneda} promo={item.promo}
-                agregarAlCarrito={setComprar}
-                carritoActual={comprar}
               />
             }
           )
@@ -70,7 +82,7 @@ export function Aplicacion() {
         <Saludo primerNombre="Ricardo" segundoNombre="Ryota" />
       </section> */}
       </div>
-    </>
+    </ContextoDeApp>
   )
 }
 

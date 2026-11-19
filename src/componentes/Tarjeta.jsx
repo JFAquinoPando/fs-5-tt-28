@@ -1,20 +1,28 @@
-import { useState } from "react"
+import { useContext } from "react"
+import { ContextoDeApp } from "../ContextoDeApp"
+import { useStore } from "./../almacenamiento/useContexto";
 
 export function Tarjeta(
-    {imagen, producto, descuento, precio, moneda, promo, agregarAlCarrito, carritoActual}
+    {imagen, producto, descuento, precio, moneda, promo}
 ) {
 
-    const [ seleccionado, setSeleccionado ] = useState(false)
+    const contexto = useContext(ContextoDeApp)
+    if (contexto === null) {
+        throw new Error('Tarjeta debe usarse dentro de ContextoDeApp')
+    }
 
-    function handleClick(){
-        setSeleccionado(true)
-        agregarAlCarrito([...carritoActual, {
-            imagen, producto, descuento, precio, moneda, promo
-        }])
+    const { carrito, agregarAlCarrito } = contexto
+    const seleccionado = carrito.some(function (item) {
+        return item.producto === producto
+    })
+
+    function handleClick() {
+        agregarAlCarrito({ imagen, producto, descuento, precio, moneda, promo })
     }
 
     return (
         <article className="tarjeta-producto">
+            <span>{productos}</span>
             <figure className={seleccionado ? "agregado" : ""}>
                 <img src={imagen} alt={producto} />
             </figure>
